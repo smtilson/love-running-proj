@@ -1,0 +1,22 @@
+/*  asterisk wildcard selector to target all elements
+    this is done to override default styling*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    background-color: lightcoral;
+}
+
+/* main */
+main {
+    background-color: lightblue;
+}
+
+/* footer*/
+footer {
+    background-color: orange;
+}
