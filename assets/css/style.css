@@ -85,10 +85,16 @@ nav {
 }
 /* main */
 main {
-    background-color: lightblue;
     /* makes main take up any extra space, pushes footer to bottom */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/* hero section */
+#hero {
+    height:600px;
+    width: 100%;
+    background-color: lightgreen;
 }
 
 /* footer*/
