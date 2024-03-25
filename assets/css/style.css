@@ -20,7 +20,9 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -177,7 +179,7 @@ main {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0,0,0, .6);
+    background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
     /* will not wrap on screens smaller than 400px. 
@@ -192,6 +194,7 @@ main {
     /* overrides general h3 color */
     color: #fafafa;
 }
+
 /* footer*/
 #social-networks {
     text-align: center;
@@ -249,13 +252,15 @@ main {
     }
 
     /* reasons section */
-    #benefits-physical, #benefits-mental {
+    #benefits-physical,
+    #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-physical > div, #benefits-mental > div {
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
 
@@ -280,20 +285,23 @@ main {
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
     #benefits-image {
         order: 0
     }
+
     #benefits-mental {
         order: 1;
     }
-    #benefits-mental > div {
+
+    #benefits-mental>div {
         align-self: flex-start;
     }
-    #benefits-physical > div {
+
+    #benefits-physical>div {
         align-self: flex-end;
     }
 }
