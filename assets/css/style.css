@@ -20,7 +20,9 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -111,7 +113,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
@@ -126,7 +129,8 @@ main {
     margin-bottom: 20px;
 }
 
-#benefits-physical > div, #benefits-mental > div{
+#benefits-physical>div,
+#benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -143,6 +147,24 @@ main {
 
 #benefits p {
     padding: 0 20px;
+}
+
+#benefits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    position: relative;
+    background: url('../images/reasons-image.webp') no-repeat top center/cover;
+    margin-bottom: 20px;
+    /* makes it a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /* footer*/
