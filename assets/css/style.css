@@ -104,7 +104,7 @@ footer {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-rightL 1rem;
+        padding-right: 1rem;
     }
 
     #menu {
@@ -129,5 +129,12 @@ footer {
     main {
         /* push main content down */
         margin-top: 79px;
+    }
+}
+
+/* media query: laptop and larger (992px)*/
+@media screen and (min-width: 800px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
     }
 }
