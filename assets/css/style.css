@@ -133,7 +133,9 @@ footer {
 }
 
 /* media query: laptop and larger (992px)*/
-@media screen and (min-width: 800px) {
+/* I changed the number of pixels since my screen has a smaller width.
+   I am not sure what this media query should be set to.*/
+@media screen and (min-width: 916px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
