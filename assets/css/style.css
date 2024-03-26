@@ -95,6 +95,8 @@ main {
     /* makes main take up any extra space, pushes footer to bottom */
     flex: 1 0 auto;
     margin-top: 47px;
+    /* margin-bottom: 10px;
+    padding-bottom: 10px;*/
 }
 
 /* hero section */
@@ -122,6 +124,7 @@ main {
     color: #ffffff;
 }
 
+/* reasons and benefits styling */
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -171,6 +174,7 @@ main {
     max-height: 300px;
 }
 
+/* meet up times styles*/
 #times {
     background: url('../images/dublin-city.webp') no-repeat center center/cover;
     flex-wrap: wrap;
@@ -206,8 +210,65 @@ main {
     line-height: 1em;
 }
 
+/* form styles */
+#signup-main {
+    display: flex;
+    flex-direction: column;
+}
 
+#signup-section {
+    background-image: url('../images/signup-image.webp');
+    background-position: 75%;
+    background-size: cover;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60,60,60,0.6);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    color: #fafafa;
+    margin: 5px 0 20px 0;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    padding: 15px 32px;
+}
 /* footer*/
+/* 
+how do I keep the form element from bleeding into the footer?
+footer {
+    margin-top: 20px;
+}*/
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -290,6 +351,33 @@ main {
 
     #photos {
         column-count: 3;
+    }
+
+    /* form styles */
+    #signup-section {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        position: absolute;
+        max-width: 400px;
+        /*top: 150px;*/
+        top: 15%;
+        left: 10%;
+        /*overflow: hidden;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        flex-shrink: 1;*/
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
